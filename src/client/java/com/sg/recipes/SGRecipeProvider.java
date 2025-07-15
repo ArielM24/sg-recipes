@@ -212,6 +212,7 @@ public class SGRecipeProvider extends FabricRecipeProvider {
                 createShaped(RecipeCategory.BUILDING_BLOCKS, Items.RED_SAND, 2).pattern("lw").pattern("wl").input('l', Items.SAND).input('w', Items.IRON_NUGGET).group("red sand").criterion(hasItem(Items.SAND), conditionsFromItem(Items.SAND)).offerTo(exporter);
                 createShaped(RecipeCategory.BUILDING_BLOCKS, Items.SOUL_SOIL, 4).pattern("lw").pattern("wl").input('l', Items.SOUL_SAND).input('w', Items.BONE_BLOCK).group("soul soil").criterion(hasItem(Items.SOUL_SAND), conditionsFromItem(Items.SOUL_SAND)).offerTo(exporter);
                 createShaped(RecipeCategory.BUILDING_BLOCKS, Items.DEEPSLATE, 4).pattern("lll").pattern("lll").pattern("lll").input('l', Items.STONE).group("deepslate").criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE)).offerTo(exporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, Items.COBWEB, 1).pattern("l l").pattern(" l ").pattern("l l").input('l', Items.STRING).group("coweb").criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING)).offerTo(exporter);
                 
             }
         };
