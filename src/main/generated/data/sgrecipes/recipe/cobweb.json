@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "coweb",
+  "group": "cobweb",
   "key": {
     "l": "minecraft:string"
   },
